@@ -1,0 +1,115 @@
+header {
+  height: 41%;
+  min-height: 250px;
+}
+
+.main-pic {
+  background-image: url("../assets/kep.jpg");
+  background-size: 38% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  background-position-y: 2%;
+  background-position-x: 17%;
+}
+
+.picture-header {
+  background-image: url("../assets/IKIR2.jpg");
+  background-size: 38% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 100%;
+  background-position-y: 2%;
+  background-position-x: 17%;
+}
+
+.logo {
+  background-image: url("../assets/logo.png");
+  background-size: 30% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 100%;
+  background-position-y: 7%;
+  background-position-x: 51.5%;
+}
+
+.container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.job-title-text {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  /*margin-left: 6%;*/
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 0;
+  color: White;
+  text-shadow: 3.5px 3.5px 1px black;
+}
+
+.hor-line {
+  position: relative;
+  left: 20%;
+  width: 60%;
+  border: 1.5px solid rgba(0,0,0, 0.1);
+  border-radius: 15px;
+}
+
+.job {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+  margin: 2% 2%;
+  /*background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);*/
+  /*background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);*/
+  background-color: #1E9DDA;
+  flex: 1 1 15%;
+  box-shadow: 0px 3px 5px grey;
+}
+
+.Developer {
+  display: flex;
+}
+
+.Developer .icon {
+  margin-top: 7px;
+  margin-left: 7px;
+  width: 26px;
+  height: 26px;
+  background-image: url("../assets/dev.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.Java span {
+  margin-top: 7px;
+  margin-left: 7px;
+  width: 26px;
+  height: 26px;
+  background-image: url("../assets/dev.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px)  {
+  .logo {
+    background-size: 250px auto;
+    background-position-y: 10%;
+    background-position-x: 55%;
+  }
+  .job {
+    flex: 1 1 30%
+  }
+}
+
+@media screen and (max-width: 500px)  {
+  .job {
+    flex: 1 1 100%;
+  }
+}
