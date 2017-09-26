@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  jobTitle =
-  ["C# Developer", "Java Developer", ".Net Developer", "Script Developer", "HR Assistant",
-   "C# Developer", "Java Developer", ".Net Developer", "Script Developer", "HR Assistant",
-   "C# Developer", "Java Developer", ".Net Developer", "Script Developer", "HR Assistant"];
-  constructor() {}
-  ngOnInit() {}
+
 }
